@@ -14,5 +14,16 @@ Related projects:
 
 From the project root, bun `build.sh`.
 
+## To Do
+
+* Update build to use Gradle.
+* Then update build to use Maven.
+* Then deploy to AWS using Terraform.
+
 ## Change Log
 
+*2023-01-22:* Created the `YImage` servlet.
+Refactored project to use the [YWidget](https://github.com/andreburto/YWidget) library jar.
+Updated `build.sh` to autobuild using YWidget project. 
+
+*2023-01-15:* Started working on the initial `YView` servlet.
