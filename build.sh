@@ -3,7 +3,8 @@ cd $(dirname $0)
 
 APP_NAME="YViewApp.war"
 BASE_DIR=$(pwd)
-TOMCAT_PATH="$HOME/bin/apache-tomcat-8.5.84/"
+TOMCAT_VERSION=8.5.84
+TOMCAT_PATH="$HOME/bin/apache-tomcat-${TOMCAT_VERSION}/"
 YWIDGET_FILE="YWidget.jar"
 YWIDGET_PATH="ywidget"
 YWIDGET_REPO="https://github.com/andreburto/YWidget.git"

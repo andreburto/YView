@@ -22,8 +22,10 @@ From the project root, bun `build.sh`.
 
 ## Change Log
 
-*2023-01-22:* Created the `YImage` servlet.
+**2023-01-28:** Added Terraform configuration which deploys and builds this app on an EC2 instance.
+
+**2023-01-22:** Created the `YImage` servlet.
 Refactored project to use the [YWidget](https://github.com/andreburto/YWidget) library jar.
 Updated `build.sh` to autobuild using YWidget project. 
 
-*2023-01-15:* Started working on the initial `YView` servlet.
+**2023-01-15:** Started working on the initial `YView` servlet.

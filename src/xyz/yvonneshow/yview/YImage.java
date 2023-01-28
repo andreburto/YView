@@ -54,7 +54,7 @@ public class YImage extends HttpServlet {
         BufferedOutputStream bout = new BufferedOutputStream(outStream);  
           
         int ch = 0;  
-        while((ch = bin.read())!=-1)  
+        while((ch = bin.read()) != -1)  
         {  
             // display image
             bout.write(ch);  
